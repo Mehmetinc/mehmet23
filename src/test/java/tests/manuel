@@ -1,0 +1,39 @@
+User Story ID	Test Case ID	    Test Objective	               Pre-Condition	                   Steps	                                                Test Data        	              Test Expected
+
+	                        Passengers are divided into:                                        1_Go to http://tickets.vueling.com
+                            adults, children and babies                                         2_Select Barcelona from dropdown
+                            (adult> 16 years, child> 2 years,                                   3_Select Madrid as a destionation from dropdown
+                            baby> 7 days)                                                       4_Select One way only
+                            Child cannot fly                                                    5_Select the date of the departure
+                            without a dependent adult Baby needs                                7_Select One Child passanger
+                            to fly with an adult.An adult can only care                         8_Select One Baby passanger
+                            for one baby  Prepare a manual test plan                            9_ Click on Search for Flights button
+                            that validates the correct                                          10_A flight has been selected from the given table
+                            implementation of the previous rules                                11_Selec TimeFlex option
+                            The environment  should be ready                                    12_Click on the Continue button below
+                                                                                              	13_Fill the Adult passanger information
+                                                                                              	14_Fill the Baby passanger information
+                                                                                              	15_Click on the Following button
+                                                                                                16_Fill the Child passanger information
+ User_01       TC_01                                    http://tickets.vueling.com              17_Click on the Following button		                         http://tickets.vueling.com         PASSED
+                                                                                                18_Fill the Contact person information
+                                                                                                19_Accept the Privacy Policy
+                                                                                                20_Click on the Continue button
+                                                                                                21_Click on the Accept button
+                                                                                                22_Click on the Continue button
+                                                                                                23_Go on the payment page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
